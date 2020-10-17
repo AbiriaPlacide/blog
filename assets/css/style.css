@@ -260,6 +260,8 @@ hr {
     align-self: stretch;
     align-content: flex-end;
 	background-color: #003049ff;
+	border-radius: 20px;
+	box-shadow: 0px 5px 10px #d2d2d2;
 }
 
 .site-heading h4 {
