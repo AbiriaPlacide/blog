@@ -1,9 +1,9 @@
 title: placide.tech
-name: Abiria Placide 
+name: PLACIDETECH 
 user_description: Programmer 
-profile_pic: /assets/img/profile.png
-favicon: /assets/img/favicon.png
-copyright_name: Abiria Placide
+profile_pic: /assets/img/favicon.svg
+favicon: /assets/img/favicon.svg
+copyright_name: PLACIDETECH 
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://placide.tech" # the base hostname & protocol for your site, e.g. http://example.com
 encoding: utf-8

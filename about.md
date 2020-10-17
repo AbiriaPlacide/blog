@@ -1,9 +1,9 @@
 ---
 layout: post
-title: About
+title: contact
 permalink: /about/
 content-type: eg
 ---
-github.com/AbiriaPlacide
 
+<b>placidetech@protonmail.com</b>
 

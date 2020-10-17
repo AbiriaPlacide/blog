@@ -1,1 +1,35 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-31T00:44:23-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">placide.tech</title><entry><title type="html">Learning To Design A Dev Board</title><link href="http://localhost:4000/posts/learning-to-design-a-devboard" rel="alternate" type="text/html" title="Learning To Design A Dev Board" /><published>2020-06-08T00:00:00-05:00</published><updated>2020-06-08T00:00:00-05:00</updated><id>http://localhost:4000/posts/learning-to-design-a-devboard</id><content type="html" xml:base="http://localhost:4000/posts/learning-to-design-a-devboard">&lt;p&gt;This is a test to make sure things are up and running&lt;/p&gt;</content><author><name></name></author><category term="LearningXSeries" /><summary type="html">This is a test to make sure things are up and running</summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-16T22:13:51-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">placide.tech</title><entry><title type="html">Learning embedded systems</title><link href="http://localhost:4000/posts/Learning-embedded-systems" rel="alternate" type="text/html" title="Learning embedded systems" /><published>2020-10-16T00:00:00-05:00</published><updated>2020-10-16T00:00:00-05:00</updated><id>http://localhost:4000/posts/Learning-embedded-systems</id><content type="html" xml:base="http://localhost:4000/posts/Learning-embedded-systems">&lt;p&gt;Embedded systems is a broad field and often it can be difficult to know where to begin.
+This serves as a guide on what is required to quickly get started.&lt;/p&gt;
+
+&lt;p&gt;We're gonna look at the arduino platform, learning C, picking a microcontroller, reading datasheets, and Hello world for embedded systems.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-arduino-platform&quot;&gt;The Arduino Platform:&lt;/h4&gt;
+
+&lt;p&gt;The arduino platform serves as a way for hobbyists to make awesome projects and prototypes quickly without worrying about the underlying hardware. All you have to do is buy a starter kit, download the arduino IDE, follow the vast amount of tutorials online and you can make whatever you desire within reason. It also has a large community you can go to when you're stuck and you can use a lot of libraries to control components you may use for your project. It’s great if you’re doing it for a hobby and you can make amazing stuff with it. But once you decide to pursue a career in embedded systems, arduino’s are not used for professional work.&lt;/p&gt;
+
+&lt;p&gt;Learning C: Before picking a microcontroller, you first have to learn C before being able to program it. 
+You have to be comfortable with the basics like pointers, typecasting, bitwise operations, the C preprocessor, and understand what certain keywords like “Volatile” do.&lt;/p&gt;
+
+&lt;h4 id=&quot;picking-a-microcontroller&quot;&gt;Picking a microcontroller&lt;/h4&gt;
+
+&lt;p&gt;When picking a microcontroller, as a beginner, you want to look at the ecosystem and support it has and how quickly you can get productive with it. Also, it is beneficial to pick a board that doesn’t need an external programmer. It’s recommended to pick one that has an In-Circuit Debug Interface so all you would need is a usb connection to get started.&lt;/p&gt;
+
+&lt;p&gt;Most vendors such as Texas instruments will provide sample programs to run and also provide an IDE to use. There are many boards to choose from different vendors but as a beginner the idea is to get started quickly.
+The Tiva C series LaunchPad will be used for future examples but the principles are similar for other boards.&lt;/p&gt;
+
+&lt;h4 id=&quot;reading-datasheets&quot;&gt;Reading Datasheets&lt;/h4&gt;
+
+&lt;p&gt;When writing firmware for embedded systems, a lot of time will be spent reading the datasheets of the microcontroller and components used in a project. I'd say this is the most important skill to master besides learning C.
+The datasheet of a microcontroller and User manual are provided by the Vendor.&lt;/p&gt;
+
+&lt;p&gt;The user manual provides a hardware description of the board and how components are connected. The most important information to know is what pins of the microcontroller the components are connected to.&lt;/p&gt;
+
+&lt;p&gt;The datasheet of the MCU provides all the information you need to know such as the Architecture, Memory Map or Memory Model, available Memory, GPIO’s, Timers, and more.&lt;/p&gt;
+
+&lt;h4 id=&quot;hello-world-for-embedded-systems&quot;&gt;Hello world for embedded systems&lt;/h4&gt;
+
+&lt;p&gt;If you’ve learned to code in the past, you’ve likely written a hello world program as an introduction to a programming language. In C, all you need is the standard io header file and a main function.&lt;/p&gt;
+
+&lt;p&gt;In embedded systems, the equivalent to hello world is blinking an LED. 
+Most arduino’s have a built in LED and all you have to do is write this code to initialize the hardware then the built in LED turns on. 
+For the launchpad, looking at the user manual, the block diagram shows there are three RGB LEDs connected to GPIO ports. Turning on an LED for the Launchpad is a more involved process So I’ll tackle the topic next time.&lt;/p&gt;</content><author><name></name></author><category term="BackToBasics" /><summary type="html">Embedded systems is a broad field and often it can be difficult to know where to begin. This serves as a guide on what is required to quickly get started.</summary></entry></feed>
