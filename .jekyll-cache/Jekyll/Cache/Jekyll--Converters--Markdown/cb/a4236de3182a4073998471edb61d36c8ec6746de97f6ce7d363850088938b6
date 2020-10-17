@@ -1,0 +1,26 @@
+I"Õ<style>
+.date-content a {
+    text-decoration: none;
+    color: #4183c4;
+}
+
+.date-content a:hover {
+    text-decoration: underline;
+    color: #4183c4;
+}
+</style>
+
+<main>
+    
+    
+    
+      <h3 id="16-October-2020">16-October-2020</h3>
+          
+            <li id="date-content" style="padding-bottom: 0.6em; list-style: none;"><a href="/posts/Learning-embedded-systems">Learning embedded systems</a></li>
+          
+    
+    
+        <br />
+        <br />
+</main>
+:ET
