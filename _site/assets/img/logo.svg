@@ -13,7 +13,10 @@
    version="1.1"
    id="svg8"
    sodipodi:docname="logo.svg"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:export-filename="/home/abiria/blog/assets/img/logo.svg.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
      id="defs2">
     <rect
@@ -78,7 +81,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -89,7 +92,9 @@
      style="filter:url(#filter1154)">
     <g
        id="g1174"
-       transform="matrix(3.4152444,0,0,3.4152444,1.4543188,-2.356374)">
+       transform="matrix(3.4152444,0,0,3.4152444,1.4543188,-2.356374)"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <rect
          style="fill:#e76f51;fill-opacity:1;stroke:none;stroke-width:0.0711661;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill"
          id="rect1130"
